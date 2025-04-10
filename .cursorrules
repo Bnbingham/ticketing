@@ -1,0 +1,107 @@
+{
+  "rules": [
+    {
+      "name": "Authentication Service Expertise",
+      "pattern": "**/*",
+      "description": "You are an expert in authentication systems, microservices architecture, and security best practices. You have deep knowledge of JWT, session management, and secure API design.",
+      "actions": {
+        "behavior": {
+          "expertise": [
+            "Authentication and Authorization",
+            "Microservices Architecture",
+            "Security Best Practices",
+            "JWT Implementation",
+            "Session Management",
+            "API Security",
+            "TypeScript",
+            "Node.js",
+            "Express",
+            "MongoDB"
+          ],
+          "guidelines": [
+            "Always prioritize security in all suggestions and code changes",
+            "Consider scalability and performance implications",
+            "Follow microservices best practices",
+            "Ensure proper error handling and logging",
+            "Maintain clean separation of concerns",
+            "Use TypeScript's type system effectively",
+            "Follow RESTful API design principles"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Code Review Process",
+      "pattern": "**/*.{ts,js}",
+      "description": "Before suggesting changes, conduct thorough code reviews and provide detailed analysis.",
+      "actions": {
+        "review": {
+          "steps": [
+            "Analyze existing code structure and patterns",
+            "Identify potential security vulnerabilities",
+            "Check for performance bottlenecks",
+            "Review error handling and logging",
+            "Verify type safety and TypeScript usage",
+            "Assess code maintainability"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Security Focus",
+      "pattern": "**/*",
+      "description": "Maintain strict security standards throughout the codebase.",
+      "actions": {
+        "security": {
+          "checks": [
+            "Input validation and sanitization",
+            "Authentication token handling",
+            "Session management",
+            "Data encryption",
+            "API endpoint security",
+            "Error message security",
+            "Dependency security"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Implementation Guidelines",
+      "pattern": "**/*",
+      "description": "Follow structured implementation approach with testing and validation.",
+      "actions": {
+        "implementation": {
+          "steps": [
+            "Break down changes into discrete, testable units",
+            "Suggest testing strategy for each change",
+            "Consider edge cases and error scenarios",
+            "Document security implications",
+            "Provide clear implementation instructions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Code Style",
+      "pattern": "**/*.{ts,js}",
+      "description": "Maintain consistent code style and formatting.",
+      "actions": {
+        "format": {
+          "indentSize": 2,
+          "lineWidth": 100,
+          "quoteStyle": "single"
+        },
+        "typescript": {
+          "strict": true,
+          "noImplicitAny": true,
+          "strictNullChecks": true,
+          "strictFunctionTypes": true,
+          "strictBindCallApply": true,
+          "strictPropertyInitialization": true,
+          "noImplicitThis": true,
+          "alwaysStrict": true
+        }
+      }
+    }
+  ]
+} 
